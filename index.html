@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link href="style.css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <title>My Custom Article</title>
+</head>
+<body>
+<header><h1>The era of JavaScript !</h1></header>
+<nav>
+  <ul>
+      <li><a href="#">Article</a> </li>
+      <li><a href="#">About</a> </li>
+      <li><a href="#">Related Links</a> </li>
+      <li><a href="#">About me</a> </li>
+      <li class="subscribe"><a href="#">RSS feed</a></li>
+  </ul>
+</nav>
+<section id="intro">
+    <header>
+        <h2>Why JavaScript ? ? ?</h2>
+    </header>
+    <p>JavaScript is arguably the most open programming language there is: ECMA-262,
+        its specification, is an ISO standard.
+        That specification is closely followed by many implementations from independent parties.
+        Some of those implementations are open source. Furthermore,
+        the evolution of the language is handled by TC39, a committee
+        comprising several companies, including all major browser vendors.
+        Many of those companies are normally competitors,
+        but they work together for the benefit of the language.</p>
+</section>
+
+<section>
+    <article class="blogpost">
+        <header>
+            <h2>
+                Is JavaScript Powerful...?
+            </h2>
+            <p>Posted on<time datetime="2015-07-30T15:10:44+05:30"> July 29</time></p>
+            <p>
+                Is JavaScript object-oriented? It has objects which can contain data and methods that act upon that data. Objects can contain other objects. It does not have classes, but it does have constructors which do what classes do, including acting as containers for class variables and methods.
+                It does not have class-oriented inheritance, but it does have prototype-oriented inheritance.The two main ways of building up object systems are by inheritance (is-a) and by aggregation (has-a). JavaScript does both, but its dynamic nature allows it to excel at aggregation.
+
+                Some argue that JavaScript is not truly object oriented because it does not provide information hiding. That is, objects cannot have private variables and private methods: All members are public.
+                JavaScript's C-like syntax, including curly braces and the clunky for statement, makes it appear to be an ordinary procedural language. This is misleading because JavaScript has more in common with functional languages like Lisp or Scheme than with C or Java. It has arrays instead of lists and objects instead of property lists. Functions are first class. It has closures.
+                You get lambdas without having to balance all those parens.
+            </p>
+        </header>
+    </article>
+</section>
+
+<section id="comments">
+            <header>
+            <h3>
+                Comments Made
+            </h3>
+        </header>
+    <article>
+        <header>
+            <a href="#">Eldhose K Shibu</a> on <time datetime="2015-07-30T15:10:44+05:30">July 30th 2015 at 15:18</time>
+        </header>
+        <p>Entino vendi telikunna sambar... !</p>
+    </article>
+
+    <article>
+        <header>
+            <a href="#">Nimisha Susan</a> on <time datetime="2015-07-30T15:10:44+05:30">July 30th 2015 at 15:23</time>
+        </header>
+        <p>Go Home Eldhose, You are Drunk !</p>
+    </article>
+</section>
+
+<form method="post" action="index.html">
+
+<h3>Post a Comment</h3>
+<p>
+    <label for="name">Name</label>
+    <input name="name" id="name" type="text" must fill in/>
+</p>
+<p>
+    <label for="email">Email</label>
+    <input name="email" id="email" type="email" must fill in/>
+</p>
+<p>
+    <label for="comment">Comment</label>
+    <textarea name="name" id="comment"  must fill in></textarea>
+</p>
+    <p><input type="submit" value="Post comment" /></p>
+</form>
+
+
+<footer>
+   Created with passion, Eldhose
+</footer>
+</body>
+</html>
